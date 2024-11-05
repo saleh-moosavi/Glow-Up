@@ -20,7 +20,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 bg-white shadow-md">
+    <div className="fixed top-0 left-0 right-0 bg-white shadow-md z-[999]">
       <div className="bg-emerald-800/70 text-center h-5 text-xs font-bold text-white">
         Glow Up
       </div>
