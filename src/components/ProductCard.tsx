@@ -2,11 +2,11 @@ import Star from "./Star";
 
 export default function ProductCard(props: any) {
   return (
-    <div>
+    <div className="overflow-hidden hover:-translate-y-2 cursor-pointer transition-all duration-300">
       <img className="h-52 object-cover object-right" src={props.img} />
       <div className="flex flex-col items-center mt-3">
-        <h4 className="text-xs font-bold">{props.price}</h4>
-        <p className="text-center text-xs font-medium text-stone-700">
+        <h4 className="font-semibold">{props.price}</h4>
+        <p className="text-center text-xs font-bold text-stone-700">
           {props.desc}
         </p>
         <Star />
