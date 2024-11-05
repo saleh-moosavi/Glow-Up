@@ -2,6 +2,7 @@ import FeaturedProducts from "./FeaturedProducts";
 import Hero from "./Hero";
 import Advantages from "./Advantages";
 import Banner from "../../components/Banner";
+import Footer from "../../components/Footer";
 
 export default function HomeIndex() {
   return (
@@ -19,6 +20,7 @@ export default function HomeIndex() {
         btnTitle="Shop Now"
         img="https://img.freepik.com/premium-photo/stylish-display-essential-cosmetic-items-featuring-lipstick-brushes-powder-set-against-serene-light-backdrop-generative-ai_262708-55452.jpg"
       />
+      <Footer />
     </>
   );
 }
