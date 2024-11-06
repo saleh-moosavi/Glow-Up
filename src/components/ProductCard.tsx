@@ -1,6 +1,12 @@
 import Star from "./Star";
 
-export default function ProductCard(props: any) {
+interface ProductCardType {
+  img: string;
+  price: string;
+  desc: string;
+}
+
+export default function ProductCard(props: ProductCardType) {
   return (
     <div className="overflow-hidden hover:-translate-y-2 cursor-pointer transition-all duration-300">
       <img className="h-52 object-cover object-right" src={props.img} />

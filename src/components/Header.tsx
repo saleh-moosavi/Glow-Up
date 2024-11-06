@@ -6,8 +6,8 @@ import { IoPerson } from "react-icons/io5";
 import { MdAddCard } from "react-icons/md";
 
 export default function Header() {
-  const [windowSize, setWindowSize] = useState(window.innerWidth);
-  const [showSideBar, setShowSideBar] = useState(false);
+  const [windowSize, setWindowSize] = useState<number>(window.innerWidth);
+  const [showSideBar, setShowSideBar] = useState<boolean>(false);
 
   useEffect(() => {
     const handleSize = () => {

@@ -1,4 +1,10 @@
-export default function AdvantageItem(props: any) {
+interface AdvantageItemType {
+  icon: React.ReactNode;
+  title: string;
+  desc: string;
+}
+
+export default function AdvantageItem(props: AdvantageItemType) {
   return (
     <div className="flex flex-col items-center text-center">
       {props.icon}
