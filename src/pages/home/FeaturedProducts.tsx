@@ -9,7 +9,7 @@ export default function FeaturedProducts() {
           Get the skin you wants to feel
         </p>
       </article>
-      <div className="grid grid-cols-2 justify-items-center lg:grid-cols-4 gap-5 mx-5 lg:mx-20 my-7">
+      <div className="grid grid-cols-2 justify-items-center lg:grid-cols-4 gap-5 mx-5 lg:mx-20 my-7 2xl:max-w-[95.75rem] 2xl:mx-auto">
         <ProductCard
           price="$15.00 - $20.00"
           desc="Natural Coconut Cleaning Oil"

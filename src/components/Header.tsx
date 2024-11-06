@@ -54,7 +54,7 @@ export default function Header() {
               </button>
             )}
             <ul
-              className={`fixed right-0 top-0 bottom-0 w-2/3 bg-slate-100 gap-y-8 *:cursor-pointer *:w-full *:p-5 hover:*:bg-emerald-100 hover:*:border-l-[0.5rem] hover:*:border-emerald-700 *:transition-all *:duration-300 transition-all duration-300 font-semibold 
+              className={`fixed right-0 top-0 bottom-0 w-1/2 bg-slate-100 gap-y-8 *:cursor-pointer *:w-full *:p-5 hover:*:bg-emerald-100 hover:*:border-l-[0.5rem] hover:*:border-emerald-700 *:transition-all *:duration-300 transition-all duration-300 font-semibold 
                 ${showSideBar ? "translate-x-0" : "translate-x-full"}`}
             >
               <li>Home</li>

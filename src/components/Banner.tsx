@@ -1,6 +1,6 @@
 export default function Banner(props: any) {
   return (
-    <div className="relative -z-10 mx-5 md:mx-12 lg:mx-[4.9rem] mb-10">
+    <div className="relative -z-10 mx-5 md:mx-12 lg:mx-20 mb-10 2xl:max-w-[92.5rem] 2xl:mx-auto">
       <img
         className="h-40 lg:h-52 w-full object-cover"
         src={props.img}
