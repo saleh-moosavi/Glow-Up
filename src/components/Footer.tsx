@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="mt-10 py-5 bg-emerald-800/70">
       <article className="grid grid-cols-3 justify-items-center gap-x-5 mx-5 lg:mx-20 xl:max-w-[70rem] xl:mx-auto">
-        <img className="w-24 h-24" src="../../public/assets/QrCode-white.svg" />
+        <img className="w-24 h-24" src="/assets/QrCode-white.svg" />
         <FooterItem />
         <FooterItem />
       </article>
