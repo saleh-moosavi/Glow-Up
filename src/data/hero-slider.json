@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "img": "https://img.freepik.com/premium-photo/stylish-display-essential-cosmetic-items-featuring-lipstick-brushes-powder-set-against-serene-light-backdrop-generative-ai_262708-55452.jpg",
+    "title": "Beauty Inspired By Real Life",
+    "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio inventore laboriosam reprehenderit amet esse similique, harum."
+  },
+  {
+    "id": 1,
+    "img": "https://img.freepik.com/premium-photo/hairdresser-set-with-various-accessories-pink-background-copy-space_609048-2953.jpg",
+    "title": "Beauty Inspired By Real Life",
+    "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio inventore laboriosam reprehenderit amet esse similique, harum."
+  },
+  {
+    "id": 2,
+    "img": "https://st3.depositphotos.com/13349494/18890/i/450/depositphotos_188905910-stock-photo-top-view-hairdressing-tools-isolated.jpg",
+    "title": "Beauty Inspired By Real Life",
+    "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio inventore laboriosam reprehenderit amet esse similique, harum."
+  }
+]
