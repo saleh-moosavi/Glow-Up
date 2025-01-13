@@ -1,4 +1,5 @@
 import ProductCard from "../../components/ProductCard";
+import data from "../../data/featured-product.json";
 
 export default function FeaturedProducts() {
   return (
@@ -10,26 +11,9 @@ export default function FeaturedProducts() {
         </p>
       </article>
       <div className="grid grid-cols-2 justify-items-center lg:grid-cols-4 gap-5 mx-5 lg:mx-20 my-7 2xl:max-w-[95.75rem] 2xl:mx-auto">
-        <ProductCard
-          price="$15.00 - $20.00"
-          desc="Natural Coconut Cleaning Oil"
-          img="https://img.freepik.com/premium-photo/stylish-display-essential-cosmetic-items-featuring-lipstick-brushes-powder-set-against-serene-light-backdrop-generative-ai_262708-55452.jpg"
-        />
-        <ProductCard
-          price="$15.00 - $20.00"
-          desc="Natural Coconut Cleaning Oil"
-          img="https://img.freepik.com/premium-photo/stylish-display-essential-cosmetic-items-featuring-lipstick-brushes-powder-set-against-serene-light-backdrop-generative-ai_262708-55452.jpg"
-        />
-        <ProductCard
-          price="$15.00 - $20.00"
-          desc="Natural Coconut Cleaning Oil"
-          img="https://img.freepik.com/premium-photo/stylish-display-essential-cosmetic-items-featuring-lipstick-brushes-powder-set-against-serene-light-backdrop-generative-ai_262708-55452.jpg"
-        />
-        <ProductCard
-          price="$15.00 - $20.00"
-          desc="Natural Coconut Cleaning Oil"
-          img="https://img.freepik.com/premium-photo/stylish-display-essential-cosmetic-items-featuring-lipstick-brushes-powder-set-against-serene-light-backdrop-generative-ai_262708-55452.jpg"
-        />
+        {data.map((item) => (
+          <ProductCard price={item.price} title={item.title} img={item.img} />
+        ))}
       </div>
     </div>
   );
