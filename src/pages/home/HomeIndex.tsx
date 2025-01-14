@@ -8,12 +8,18 @@ export default function HomeIndex() {
   return (
     <>
       <Hero />
-      <FeaturedProducts />
+      <FeaturedProducts
+        title="Our Featured Products"
+        desc="Get the skin you wants to feel"
+      />
       <div className="bg-stone-100">
         <Advantages />
       </div>
 
-      <FeaturedProducts />
+      <FeaturedProducts
+        title="Most Purchased Products"
+        desc="See what our customers love"
+      />
       <Banner
         desc="New Collection"
         title="Intensive Glow Serum"
