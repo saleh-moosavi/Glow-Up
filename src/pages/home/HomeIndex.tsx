@@ -1,24 +1,28 @@
-import FeaturedProducts from "./FeaturedProducts";
+import Products from "./Products";
 import Hero from "./Hero";
 import Advantages from "./Advantages";
 import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
+import featuredData from "../../data/featured-product.json";
+import mostData from "../../data/most-purchased-product.json";
 
 export default function HomeIndex() {
   return (
     <>
       <Hero />
-      <FeaturedProducts
+      <Products
         title="Our Featured Products"
         desc="Get the skin you wants to feel"
+        data={featuredData}
       />
       <div className="bg-stone-100">
         <Advantages />
       </div>
 
-      <FeaturedProducts
+      <Products
         title="Most Purchased Products"
         desc="See what our customers love"
+        data={mostData}
       />
       <Banner
         desc="New Collection"

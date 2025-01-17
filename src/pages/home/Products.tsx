@@ -1,12 +1,19 @@
 import ProductCard from "../../components/ProductCard";
-import data from "../../data/featured-product.json";
 
-export default function FeaturedProducts({
+interface dataType {
+  img: string;
+  title: string;
+  price: string;
+}
+
+export default function Products({
   title,
   desc,
+  data,
 }: {
   title: string;
   desc: string;
+  data: Array<dataType>;
 }) {
   return (
     <div className="mt-10">
