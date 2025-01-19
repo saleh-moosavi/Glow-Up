@@ -8,22 +8,22 @@ export default function Advantages() {
       <AdvantageItem
         icon={<FaBoxOpen className="w-7 h-7 fill-emerald-800/70" />}
         title="Custom Package"
-        desc="Design Your Own Pack"
+        desc="Design Your Own Package"
       />
       <AdvantageItem
         icon={<FaTruck className="w-7 h-7 fill-emerald-800/70" />}
         title="Safe Delivery"
-        desc="Design Your Own Pack"
+        desc="Careful Handling and Delivery"
       />
       <AdvantageItem
         icon={<GoClockFill className="w-7 h-7 fill-emerald-800/70" />}
-        title="Custom Package"
-        desc="Design Your Own Pack"
+        title="Time Saving"
+        desc="Fast and Reliable Delivery"
       />
       <AdvantageItem
         icon={<FaCoins className="w-7 h-7 fill-emerald-800/70" />}
-        title="Custom Package"
-        desc="Design Your Own Pack"
+        title="Lower Cost"
+        desc="Chipper Prices for You"
       />
     </div>
   );
