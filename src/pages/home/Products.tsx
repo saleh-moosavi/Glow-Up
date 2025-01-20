@@ -1,6 +1,7 @@
 import ProductCard from "../../components/ProductCard";
 
 interface dataType {
+  id:number,
   img: string;
   title: string;
   price: string;
@@ -23,7 +24,7 @@ export default function Products({
       </article>
       <div className="grid grid-cols-2 justify-items-center lg:grid-cols-4 gap-5 mx-5 lg:mx-20 my-7 2xl:max-w-[95.75rem] 2xl:mx-auto">
         {data.map((item) => (
-          <ProductCard price={item.price} title={item.title} img={item.img} />
+          <ProductCard price={item.price} title={item.title} img={item.img} key={item.id}/>
         ))}
       </div>
     </div>
