@@ -4,7 +4,7 @@ import { GoClockFill } from "react-icons/go";
 
 export default function Advantages() {
   return (
-    <div className="grid grid-cols-4 gap-x-5 mx-5 lg:mx-20 pt-5 pb-5">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mx-5 lg:mx-20 pt-5 pb-5">
       <AdvantageItem
         icon={<FaBoxOpen className="w-7 h-7 fill-emerald-800/70" />}
         title="Custom Package"
