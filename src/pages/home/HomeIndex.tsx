@@ -15,7 +15,7 @@ export default function HomeIndex() {
         desc="Get the skin you wants to feel"
         data={featuredData}
       />
-      <div className="bg-stone-100">
+      <div className="bg-stone-100 mx-5 lg:mx-20 my-7 2xl:max-w-[95.75rem] 2xl:mx-auto">
         <Advantages />
       </div>
 
