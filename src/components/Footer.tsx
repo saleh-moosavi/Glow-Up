@@ -6,8 +6,14 @@ export default function Footer() {
     <div className="mt-10 py-5 bg-emerald-800/70">
       <article className="grid grid-cols-3 justify-items-center gap-x-5 mx-5 lg:mx-20 xl:max-w-[70rem] xl:mx-auto">
         <img className="w-24 h-24" src="/assets/QrCode-white.svg" />
-        <FooterItem />
-        <FooterItem />
+        <FooterItem
+          title="Contact"
+          items={["Home", "About us", "Contact us"]}
+        />
+        <FooterItem
+          title="Category"
+          items={["Beauty", "Skin Care", "Sanitary"]}
+        />
       </article>
       <div className="flex gap-x-5 justify-center my-5 *:size-6 *:text-white *:cursor-pointer">
         <BsInstagram className="hover:-translate-y-1 transition-all duration-300" />

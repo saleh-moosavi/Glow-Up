@@ -1,14 +1,20 @@
-export default function FooterItem() {
+export default function FooterItem({
+  title,
+  items,
+}: {
+  title: string;
+  items: string[];
+}) {
   return (
     <div className="flex flex-col items-center text-left">
       <div>
         <p className="font-bold text-sm mb-2 text-white cursor-pointer">
-          Category
+          {title}
         </p>
         <ul className="*:text-xs font-semibold *:pb-2 *:text-gray-300 *:cursor-pointer">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          {items.map((item) => (
+            <li>{item}</li>
+          ))}
         </ul>
       </div>
     </div>
